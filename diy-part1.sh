@@ -23,8 +23,8 @@ echo 'src-git passwallyl https://github.com/xiaorouji/openwrt-passwall' >>feeds.
 echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2' >>feeds.conf.default
 echo 'src-git bypass https://github.com/kiddin9/openwrt-bypass' >>feeds.conf.default 
 echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
-echo 'src-git argonconfig https://github.com/jerrykuku/luci-app-argon-config' >>feeds.conf.default
 
 # Add custom feed source
 git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/lean/passwall
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/vssr
+git clone https://github.com/jerrykuku/luci-app-argon-config package/lean/argoncf
