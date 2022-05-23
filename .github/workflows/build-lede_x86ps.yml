@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: LEDE X86pb
+name: LEDE X86ps
 
 on:
   repository_dispatch:
