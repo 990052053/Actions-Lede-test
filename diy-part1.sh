@@ -25,8 +25,7 @@ echo 'src-git bypass https://github.com/kiddin9/openwrt-bypass' >>feeds.conf.def
 echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
 
 # Add custom feed source
-rm -rf package/lean/luci-theme-argon
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/argon1
 git clone https://github.com/jerrykuku/luci-app-argon-config package/lean/argoncf
 git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/lean/passwall
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/vssr
